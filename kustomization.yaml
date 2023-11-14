@@ -6,6 +6,9 @@ resources:
 - service.yaml
 
 images:
-- name: goserver
+- name: suk
   newName: carlosrjdc/app
   newTag: 55f36cb53adbe095908594b2a2a67c54317ce556
+- name: suk
+  newName: carlosrjdc/app
+  newTag: app
