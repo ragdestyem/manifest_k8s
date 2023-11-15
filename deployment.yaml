@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: skuum
+  namespace: default
 spec:
   replicas: 1
   selector:
@@ -23,6 +24,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: skudois
+  namespace: default
 spec:
   replicas: 1
   selector:
@@ -38,5 +40,5 @@ spec:
         image: carlosrjdc/app:lasted
         ports:
         - containerPort: 3000 
----
+
 
