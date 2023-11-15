@@ -8,4 +8,4 @@ resources:
 images:
 - name: sku
   newName: carlosrjdc/app
-  newTag: 545fee2e7a3a4305388ec81e1ff4988e508b7300
+  newTag: 4f4ea8cbfdcb3bf239fe77639e52557cf6c2fb8e
